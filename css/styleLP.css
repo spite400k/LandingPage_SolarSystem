@@ -73,7 +73,7 @@ li {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding:0 4%;
+  padding:0 4%  0 0 ;
   height:170px;
 }
 
@@ -232,10 +232,18 @@ li {
 @media screen and (max-width:600px){
   /* header */
   #header {
-      flex-direction:column;
+    flex-direction:column;
     height:auto;
-    line-height:40px;
-    margin-top:20px;
+    /* line-height:40px; */
+    padding: 0;
+  }
+
+  #header picture{
+    width: 100vw;
+  }
+
+  #header ul {
+    padding: 10px 20px;
   }
 
   #header li {
@@ -245,6 +253,10 @@ li {
   #header li img.icon{
     width:20px;
     margin-top:10px;
+  }
+
+  #header nav{
+    margin-bottom: 5px;
   }
 
   /*  works */
