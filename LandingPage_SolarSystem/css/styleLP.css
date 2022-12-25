@@ -1,0 +1,339 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #24292e;
+  font-family: "Noto Sans JP"; 
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+p {
+  font-size: 1.3rem;
+}
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.wrapper{
+  max-width:960px;
+  margin:0 auto 130px auto;
+  font-size:0.9rem;
+  padding:0 4%;
+}
+
+.site-title{
+  line-height:1px;
+  font-weight:600;
+  font-size:2.4rem;
+}
+
+.site-title a{
+  color: #24292e;
+}
+
+.section-title{
+  font-size:2.0rem;
+  text-align:center;
+  margin-bottom:65px;
+  text-decoration: underline;
+}
+
+.center{
+  margin: 0 auto;
+
+}
+
+
+  
+/* main */
+#main{
+  margin-bottom:80px;
+}
+#main img{
+  width:100%;
+  max-width:1920px;
+  height:400px;
+  object-fit:cover;
+}
+
+/* header */
+#header {
+  /* max-width: 960px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding:0 4%  0 0 ;
+  height:170px;
+}
+
+#header ul{
+  display: flex;
+  padding:10px 0 ;
+  align-items: center;
+  
+}
+
+#header ul li{
+  font-size: 0.9rem;
+  margin-left:30px;
+  
+}
+
+#header ul li a{
+  color: #24292e;
+  transition:all 0.3s;
+}
+
+#header ul li a:hover{
+  opacity:0.5;
+}
+
+#header  li img.icon{
+  width:30px;
+}
+
+#header  picture{
+  width:500px;
+}
+
+
+
+/* about */
+#about ul{
+  margin-bottom:30px;
+  text-align: center;
+}
+#about ul li{
+  margin-bottom:15px
+  
+}
+#about ul li:first-child{
+  margin-bottom:30px
+}
+
+/* works*/
+#works ul{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  flex-direction: row;
+  margin-bottom:50px;
+
+    text-align: center;
+  
+}
+
+#works ul li{
+  width:100%;
+  margin-bottom:23px;
+}
+
+/* #works ul li a{
+  width:40%;
+} */
+#works ul li img{
+  cursor:pointer;
+  transition:all 0.3s;
+  max-width:100px;
+}
+
+#works ul li img:hover{
+  transform:scale(1.1,1.1);
+  opacity:0.7;
+}
+
+/* #works .service{
+  width:60%; 
+   padding-left: 10%;
+} */
+
+#works .service_content{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  flex-direction: row;
+  margin: auto;
+}
+
+#works .widget{
+  margin:0 auto;
+  border: 1px solid #dcdcdc;
+  border-radius: 7px ;
+  width:300px;
+  text-align:center;
+  font-size: 10px;
+}
+
+#works .widget img{
+  margin:10px auto;
+}
+
+#works .widget p{
+  margin:10px auto;
+    font-size: 5px;
+}
+#works .widget a{
+  display: block;
+  margin:10px auto;    
+  text-align: center;
+    border-radius: 5px;
+    background-color: #27a7e1;
+    color: #fff;
+    font-size: 150%;
+    line-height: 60px;
+    height: 60px;
+    width: 95%;
+}
+
+
+/* news */
+#news dl{
+  display:flex;
+  /* flex-wrap:wrap; */
+  border-top:1px solid #c8c8c8;
+  margin-bottom:20px;
+}
+
+#news dt{
+  width:20%;
+  border-bottom:1px solid #c8c8c8;
+  padding:15px;
+}
+#news dd{
+  width:80%;
+  border-bottom:1px solid #c8c8c8;
+  padding:15px;
+}
+
+/* contact */
+#contact p{
+  text-align:center;
+  margin-bottom:20px;
+}
+.img_block02 a{
+  width:100px;
+  height:100px;
+  display: block;
+  margin:auto;
+}
+
+/* sp */
+@media screen and (max-width:600px){
+  /* header */
+  #header {
+    flex-direction:column;
+    height:auto;
+    /* line-height:40px; */
+    padding: 0;
+  }
+
+  #header picture{
+    width: 100vw;
+  }
+
+  #header ul {
+    padding: 10px 20px;
+  }
+
+  #header li {
+    font-size:0.8rem;
+    margin-left:20px;
+  }
+  #header li img.icon{
+    width:20px;
+    margin-top:10px;
+  }
+
+  #header nav{
+    margin-bottom: 5px;
+  }
+
+  /*  works */
+  #works ul{
+    flex-direction:column;
+    
+  }
+  #works ul li{
+    width:100%;
+  }
+
+  /*  news */
+  #news dl{
+    flex-direction:column;
+    
+  }
+  #news dt {
+    width:100%;
+    border-bottom:none;
+    padding-bottom:none;
+  }
+
+  #news dd {
+    width:100%;
+    padding-top:0;
+    margin-left:5%;
+  }
+
+  /*  contact */
+  #contact dl{
+    flex-direction:column;
+    
+  }
+  #contact dt {
+    width:100%;
+    margin-bottom:5px;
+    
+  }
+
+  #contact dd {
+    width:100%;
+  }
+
+  
+}
+
+
+
+/*==================================================
+ふわっ
+===================================*/
+
+
+/* fadeUp */
+
+.fadeUp{
+animation-name:fadeUpAnime;
+animation-duration:0.5s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+  transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateY(0);
+  }
+}
+
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+ 
+.fadeUpTrigger{
+    opacity: 0;
+}
