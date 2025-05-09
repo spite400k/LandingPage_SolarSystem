@@ -76,7 +76,7 @@
   let manifest = [
     {
       id: "sun",
-      src: "/img/threejs/sun.jpg",
+      src: "./threejs/sun.jpg",
     }, // 水星
     {
       id: "mercury",
