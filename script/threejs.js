@@ -76,7 +76,7 @@
   let manifest = [
     {
       id: "sun",
-      src: "../img/threejs/sun.jpg",
+      src: "/img/threejs/sun.jpg",
     }, // 水星
     {
       id: "mercury",
@@ -128,7 +128,7 @@
     }, // 海王星
     {
       id: "universe",
-      src: "../img/threejs/universe.jpg",
+      src: "/img/threejs/universe.jpg",
     }, // 宇宙空間
   ];
 
