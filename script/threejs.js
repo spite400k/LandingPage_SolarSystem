@@ -80,55 +80,55 @@
     }, // 水星
     {
       id: "mercury",
-      src: "../img/threejs/mercury.jpg",
+      src: "./threejs/mercury.jpg",
     }, // 水星
     {
       id: "venus",
-      src: "../img/threejs/venus.jpg",
+      src: "./threejs/venus.jpg",
     }, // 金星
     {
       id: "earth",
-      src: "../img/threejs/earth.png",
+      src: "./threejs/earth.png",
     }, // 地球
     {
       id: "crowd",
-      src: "../img/threejs/crowd.png",
+      src: "./threejs/crowd.png",
     }, // 雲
     {
       id: "mars",
-      src: "../img/threejs/mars.jpg",
+      src: "./threejs/mars.jpg",
     }, // 火星
     {
       id: "jupiter",
-      src: "../img/threejs/jupiter.jpg",
+      src: "./threejs/jupiter.jpg",
     }, // 木星
     {
       id: "saturn",
-      src: "../img/threejs/saturn.jpg",
+      src: "./threejs/saturn.jpg",
     }, // 土星
     {
       id: "saturn-ring",
-      src: "../img/threejs/saturn-ring.jpg",
+      src: "./threejs/saturn-ring.jpg",
     }, // 土星の輪
     {
       id: "ouranos",
-      src: "../img/threejs/ouranos.jpg",
+      src: "./threejs/ouranos.jpg",
     }, // 天王星
     {
       id: "ouranos-ring",
-      src: "../img/threejs/ouranos-ring.jpg",
+      src: "./threejs/ouranos-ring.jpg",
     }, // 天王星の輪
     {
       id: "pluto",
-      src: "../img/threejs/pluto.jpg",
+      src: "./threejs/pluto.jpg",
     }, // 冥王星
     {
       id: "neptune",
-      src: "../img/threejs/neptune.jpg",
+      src: "./threejs/neptune.jpg",
     }, // 海王星
     {
       id: "universe",
-      src: "/img/threejs/universe.jpg",
+      src: "./threejs/universe.jpg",
     }, // 宇宙空間
   ];
 
